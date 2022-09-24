@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #FFE6F7, #31C6D4);
+}
+
+.container {
+    max-width: 450px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    /* position: relative; */
+    border-radius: 5px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+/* .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #967E76, #5F6F94);
+
+} */
+/* 
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5PX;
+
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+/* form .button{
+    height: 45px;
+    margin: 45px 0;
+} */
+
+form .button input{
+    height: 120%;
+    width: 100%;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #FFE6F7, #31C6D4);
+} 
+
+form .button input:hover{
+    background: linear-gradient(-135deg, #FFE6F7, #31C6D4);
+}
